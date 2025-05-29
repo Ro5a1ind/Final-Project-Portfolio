@@ -32,7 +32,7 @@ Featured Projects
 
 Links
 
-GitHub Repository:** https://github.com/yourusername/final-project-portfolio
+GitHub Repository: https://github.com/Ro5a1ind/Final-Project-Portfolio/tree/main
 Live Site (GitHub Pages):** https://yourusername.github.io/final-project-portfolio/
 
 Thank you for visiting my portfolio!
