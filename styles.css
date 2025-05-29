@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trattatello, fantasy";
+  font-variant: small-caps;
+  font-size: 30px;
+  text-align: center;
+  background-color: #fadde1;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+nav {
+  background-color: #ea638c;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #89023e;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+.intro-img-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-img {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  border: 5px solid #89023e;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.box {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffcad4;
+  border: 5px solid #89023e;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-card {
+  border: 5px solid #89023e;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  border-radius: 30px;
+  background-color: #ffcad4;
+  font-size: 25px;
+}
+
+.preview-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  background-color: #ff5d8f;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.preview-btn:hover {
+  background-color: #ff4a78;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  background-color: #89023e;
+  margin: 5% auto;
+  padding: 30px;
+  width: 90%;
+  max-width: 900px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+}
+
+.close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
