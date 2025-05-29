@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Webpage</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#intro">Intro</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="intro" class="box">
+    <h1>Welcome to My Personal Webpage</h1>
+    <p>My name is Rosalind Wong! Nice to met you! I hope you enjoy!</p>
+    <div class="intro-img-box">
+      <img src="https://www.pngmart.com/files/23/Pochacco-PNG-HD.png">
+    </div>
+  </section>
+
+  <section id="about" class="box">
+    <h2>About Me</h2>
+    <p>I am a senior at Mt. Eden High School. I enjoy turning ideas into cute interactive digital experiences using HTML, CSS, and JavaScript. This site is a reflection of my journey — from projects. Feel free to explore, and don’t hesitate to reach out.This year in AP Computer Science, I learned how to write JavaScript code to make websites dynamic and interactive. I practiced using functions, variables, conditionals, and loops. I also gained experience building full projects like games and apps, which helped improve my debugging and problem-solving skills. Most importantly, I learned how to stay patient when things don't work the first time.</p>
+  </section>
+
+  <section id="projects">
+  <h2>My Projects</h2>
+
+  <div class="project-card">
+    <h3>Stopwatch</h3>
+    <p>This stopwatch app lets you start, stop, and reset time easily. It is built with a responsive digital timer made with HTML, CSS, and JavaScript. This project demonstrates a solid understanding of time-based JavaScript logic, conditional formatting, and DOM manipulation. Custom styling adds personality while maintaining usability.</p>
+    <button class="preview-btn" onclick="openModal('Stopwatch', 'https://codepen.io/Rosalind-Wong/full/QwWvrRE')">Preview</button>
+  </div>
+
+  <div class="project-card">
+    <h3>Typing Game</h3>
+    <p> This Typing Game is an interactive web-based game designed to improve typing speed and accuracy. Players select a difficulty level and are then tasked with typing sentences as accurately as possible to earn points. The game features real-time feedback on typing accuracy, a scoring system, and a timer for higher difficulty levels.</p>
+    <button class="preview-btn" onclick="openModal('Typing Game', 'https://codepen.io/Rosalind-Wong/full/dPPoGYE')">Preview</button>
+  </div>
+
+  <div class="project-card">
+    <h3>Guess the Number</h3>
+    <p>This interactive JavaScript-based game challenges players to guess a randomly generated number. The player can choose from three difficulty levels: easy, medium, and hard. With real-time feedback, players receive hints if their guess is too high or too low. The number of attempts is tracked and displayed. The game restarts automatically when a correct guess is made or attempts run out. This project helped reinforce logic-based programming, event handling, and DOM manipulation in JavaScript while also integrating user-friendly UI design.</p>
+    <button class="preview-btn" onclick="openModal('Guess the Number', 'https://codepen.io/Rosalind-Wong/full/MYWVQXx')">Preview</button>
+  </div>
+
+  <div class="project-card">
+    <h3>Notes App</h3>
+    <p>Organize your thoughts and ideas with this simple notes app. Built with HTML, CSS, and JavaScript, the app lets users:Create editable notes, save notes automatically using local storage, delete notes with a simple click, search notes instantly with a built-in live filter. This project highlights how simple JavaScript functions like localStorage, and addEventListener. The added search feature was an original enhancement beyond the tutorial, showing initiative in customizing and improving functionality.</p>
+    <button class="preview-btn" onclick="openModal('Notes App', 'https://codepen.io/Rosalind-Wong/full/NPWaGQy')">Preview</button>
+  </div>
+
+  <div class="project-card">
+    <h3>Random Password Generator</h3>
+    <p>This is a colorful and interactive password generator built with HTML, CSS, and JavaScript. The app creates two strong, randomly generated passwords side by side using a mix of uppercase letters, lowercase letters, numbers, and special symbols. With a single click of the "Generate Password" button, users instantly receive secure passwords that are ideal for protecting online accounts.
+This project taught the importance of secure password practices, and randomization using arrays.</p>
+    <button class="preview-btn" onclick="openModal('Password Generator', 'https://codepen.io/Rosalind-Wong/full/xbxEmRM')">Preview</button>
+  </div>
+</section>
+  
+  <section id="contact" class="box">
+    <h2>Contact Me</h2>
+    <p>Email: 14071@husd.k12.ca.us</p>
+  </section>
+  <div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h3 id="modal-title">Project Preview</h3>
+    <iframe id="modal-frame" src=""></iframe>
+    
+  </div>
+</div>
+   <script src="script.js"></script>
+  </body>
